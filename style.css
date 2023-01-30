@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("a2f303e7bd6be78e6f9cd2d5b329438a.jpg");
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.clearfix {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.left {
+    float: left;
+    border-style: solid;
+    height: 1800px;
+    width: 35%;
+    background-image: linear-gradient(to bottom right,rgb(148, 111, 111),beige);
+}
+img {
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-top: 8px;
+}
+
+.right {
+    float: right;
+    display: grid;
+    row-gap: 14px;
+    width: 64%;
+    height: 1800px;
+}
+.gif{
+    float: left; 
+    font-size: 100px; 
+}
+.up {
+    height: 700px;
+    border-style: solid;
+    background-image: linear-gradient(to bottom right,rgb(148, 111, 111),beige); ;
+}
+.portfolio{
+    text-align: center;
+    letter-spacing: 4px;
+    transform: translate(-50%,-50%);
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    margin-left: 80px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(beige,beige);
+    -webkit-background-clip: text;
+  background-position: -600px 0;
+  animation: backcolor  5s linear infinite alternate;
+}
+@keyframes backcolor{
+    100%{
+        background-position: 0 0;
+    }
+}
+.down {
+    border-style: solid;
+    height: 750px;
+    background-image: linear-gradient(to bottom right,rgb(148, 111, 111),beige);
+    
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.up_Title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-top: 20px;
+}
+
+hr {
+    width: 30%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border: none;
+}
+
+.sub_title {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.introduction {
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 12px;
+}
+
+.education_eng::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.item1 {
+    margin-left: 40px;
+    float: left;
+    width: 40px;
+    height: 50px;
+}
+
+.item2 {
+    float: right;
+    width: 90%;
+    font-size: 20px;
+}
+
+.courses {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#courses_list {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.down2 {
+    border-style: solid;
+    height: 500px;
+    background-image: linear-gradient(to bottom right,rgb(148, 111, 111),beige);
+    
+}
+
+#achivement {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#lang {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#contact {
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.t {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+td {
+    padding: 15px;
+    margin-right: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.btn {
+    background-color: beige;
+    border-radius: 6px;
+    width: 38%;
+    text-align: left;
+}
+
+#main_list {
+    font-size: 20px;
+    margin-left: 40px;
+    
+}
+
+
